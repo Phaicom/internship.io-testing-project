@@ -7,6 +7,6 @@ let count = 0;
 file.toString().split("\n").forEach(i => {
     let item = i.replace(/[^A-Za-z0-9]+/g, '').split(''),
     if (before === after)
-        count++;console.log("tests")
+        count++;
 })
 console.log(count)
